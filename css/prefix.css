@@ -1,0 +1,151 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Inter', sans-serif;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: #F4D04E;
+  ;
+
+
+}
+*,
+*::after,
+*::before
+{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+img {
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+ul,
+ol
+{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.Blog-preview-card {
+    background-color: #ffffff;
+    -webkit-box-shadow: 8px 8px 0px 0px #000000;
+            box-shadow: 8px 8px 0px 0px #000000;
+    margin-bottom: 24px;
+}
+.Blog-preview-card__text {
+    width: 336px;
+    height: 194px;
+    gap: 12px;
+}
+
+.Blog-preview-card__title {
+    width: 82px;
+    height: 29px;
+    border-radius: 4px;
+    padding: 4px, 12px, 4px, 12px;
+    gap: 8px;
+    color: #111111;
+    background-color: #F4D04E;
+    margin-top: 24px;
+}
+.Blog-preview-card__time {
+    
+    width: 163px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111111;
+    margin-top: 12px;
+}
+.Blog-preview-card__size {
+    border: 1px solid #111111
+}
+.Blog-preview-card__subject {  
+    width: 336px;
+    height: 36px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    color: #111111;
+    margin-top: 12px;
+}
+.Blog-preview-card__paragraph {
+    width: 336px;
+    height: 72px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F7F7F;
+
+    
+}
+.Blog-preview-card {
+    width: 384px;
+    height:522px ;
+    color:#ffffff ;
+    margin-top: 218.5px;
+    border-radius: 20px;
+    border: 1px;
+    padding: 24px;
+    gap: 24px;
+.Border {
+    color: #111111;
+    margin-top: 12px;
+}
+}
+.container {
+    width: 129px;
+    height: 32px;
+    gap: 12px;
+
+}
+.Blog-preview-card__author {
+}
+.Blog-preview-card__userpic {
+    width: 32px;
+    height: 32px;
+}
+.Blog-preview-card__shadows {
+    width: 85px;
+    height: 21px;
+    font-weight: 800;
+    size: 14px;
+    line-height: 21px;
+    color: #111111;
+
+}xample {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}
